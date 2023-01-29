@@ -1,0 +1,16 @@
+{
+  "name": "young-joo-ham-css-frameworks-ca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch src/scss:dist/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.57.1"
+  }
+}
