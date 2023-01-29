@@ -77,34 +77,6 @@ textarea {
     margin-top: 2.5rem;
 }
 
-.login-form {
-    width: 50%;
-    margin: 0 auto;
-    padding: 2rem;
-    background-color: #f9f9f9;
-  
-    .form-group {
-      margin-bottom: 2rem;
-  
-      label {
-        font-size: 1.2rem;
-        font-weight: bold;
-      }
-  
-      input {
-        padding: .5rem;
-        font-size: 1.2rem;
-      }
-    }
-  
-    button[type="submit"] {
-      background-color: #1e9221;
-      color: white;
-      padding: .5rem 1rem;
-      margin-top: 2rem;
-    }
-  }
-  
   html, body {
     height: 100%;
   }
@@ -121,3 +93,49 @@ textarea.form-control {
 .form-control {
     margin-bottom: 10px;
 }
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    form {
+      width: 400px;
+      padding: 30px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+  
+      .form-group {
+        margin-bottom: 20px;
+  
+        label {
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+  
+        input[type="text"],
+        input[type="password"] {
+          width: 100%;
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+        }
+      }
+  
+      button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: blue;
+        color: #fff;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: darkblue;
+        }
+      }
+    }
+  }

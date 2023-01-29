@@ -59,30 +59,6 @@ textarea {
   margin-top: 2.5rem;
 }
 
-.login-form {
-  width: 50%;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: #f9f9f9;
-}
-.login-form .form-group {
-  margin-bottom: 2rem;
-}
-.login-form .form-group label {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-.login-form .form-group input {
-  padding: 0.5rem;
-  font-size: 1.2rem;
-}
-.login-form button[type=submit] {
-  background-color: #1e9221;
-  color: white;
-  padding: 0.5rem 1rem;
-  margin-top: 2rem;
-}
-
 html, body {
   height: 100%;
 }
@@ -98,4 +74,44 @@ textarea.form-control {
 
 .form-control {
   margin-bottom: 10px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-container form {
+  width: 400px;
+  padding: 30px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+.login-container form .form-group {
+  margin-bottom: 20px;
+}
+.login-container form .form-group label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.login-container form .form-group input[type=text],
+.login-container form .form-group input[type=password] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.login-container form button[type=submit] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login-container form button[type=submit]:hover {
+  background-color: darkblue;
 }/*# sourceMappingURL=style.css.map */
